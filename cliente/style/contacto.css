@@ -1,0 +1,50 @@
+/* Estilos generales para el contenedor */
+.container-fluid {
+    padding: 0;
+    margin: 0;
+
+  }
+  
+  /* Estilos para la barra de navegación */
+  .nav-bar {
+    background-color: #d7c8ed;
+    border-radius: 5000px;
+    color: white;
+  }
+  
+  /* Estilos para los elementos de la barra */
+  .nav-item {
+    margin: 0 10px;
+  }
+  
+  /* Cambiar color en el hover de los elementos */
+  .nav-item:hover {
+    color: white
+  }
+  
+  /* Otros estilos específicos para la barra de navegación de Bootstrap */
+  .navbar {
+    border: none; /* Eliminar borde de la barra de navegación */
+    margin-bottom: 0; /* Quitar margen inferior */
+  }
+  
+  /* Estilo para el logo */
+  .navbar-brand h1 {
+    font-size: 1.5rem; /* Tamaño del texto del logo */
+    margin: 0; /* Quitar margen del logo */
+  }
+  
+  /* Cambiar color del logo en el hover */
+  .navbar-brand:hover {
+    color: white;
+  }
+
+  .navbar-nav {
+    display: flex;
+    
+  align-items: center ;
+    
+   
+  height: 4px; /* Ajustar la altura de la barra */
+  }
+  
