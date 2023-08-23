@@ -1,50 +1,77 @@
-/* Estilos generales para el contenedor */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.cuadro{
+  width: 100%;
+  height: 150px;
+  background-color: #d7c8ed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.iconos{
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  margin-right: -65%;
+  margin-top: 10px;
+}
+.iconos img{
+  padding: 10px;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  height: 80px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  margin-top: 4%;
+}
+
+nav li{
+  list-style: none;
+}
+nav a{
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 25px;
+}
+nav img{
+  width: 150px;
+  height: 150px;
+}
+
+nav a:hover{
+  color: #d7c8ed;
+}
+
+.Container{
+  background-image: url(/cliente/img/fondo\ contacto.PNG);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+
 .container-fluid {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
+}
 
-  }
-  
-  /* Estilos para la barra de navegación */
-  .nav-bar {
-    background-color: #d7c8ed;
-    border-radius: 5000px;
-    color: white;
-  }
-  
-  /* Estilos para los elementos de la barra */
-  .nav-item {
-    margin: 0 10px;
-  }
-  
-  /* Cambiar color en el hover de los elementos */
-  .nav-item:hover {
-    color: white
-  }
-  
-  /* Otros estilos específicos para la barra de navegación de Bootstrap */
-  .navbar {
-    border: none; /* Eliminar borde de la barra de navegación */
-    margin-bottom: 0; /* Quitar margen inferior */
-  }
-  
-  /* Estilo para el logo */
-  .navbar-brand h1 {
-    font-size: 1.5rem; /* Tamaño del texto del logo */
-    margin: 0; /* Quitar margen del logo */
-  }
-  
-  /* Cambiar color del logo en el hover */
-  .navbar-brand:hover {
-    color: white;
-  }
+/* Estilos para el contenedor del encabezado con imagen de fondo */
+#header-carousel {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Ajustar la altura a pantalla completa */
+}
 
-  .navbar-nav {
-    display: flex;
-    
-  align-items: center ;
-    
-   
-  height: 4px; /* Ajustar la altura de la barra */
-  }
-  
+
