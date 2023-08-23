@@ -1,0 +1,169 @@
+
+ :root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #fdcedf;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary:#D7C8ED;
+    --secondary: #62C3E7;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #FFFFFF;
+    --dark: #333333;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: "Poppins", sans-serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+  
+  
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cuadro{
+    width: 100%;
+    height: 150px;
+    background-color: #D7C8ED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .iconos{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    margin-right: -65%;
+    margin-top: 10px;
+  }
+  .iconos img{
+    padding: 10px;
+  }
+  nav{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 80px;
+    background-color: white ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 4%;
+  }
+  
+  nav li{
+    list-style: none;
+  }
+  nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 25px;
+  }
+  nav img{
+    width: 150px;
+    height: 150px;
+  }
+  
+  nav a:hover{
+    color: rgb(205, 101, 172);
+  }
+
+  .jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: 0.3rem;
+  }
+  
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding: 4rem 2rem;
+    }
+  }
+  
+  .jumbotron-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+    background-image: url(https://www.vive-santa-elena.com/wp-content/uploads/2019/06/kumini-cafe-bistro-5.jpg);
+   
+  
+  }
+
+
+  .text-center {
+    text-align: center !important;
+    color: white;
+    
+  }
+  .col-lg-7{
+ position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+ 
+
+  }
+
+  .section-title::before {
+    position: absolute;
+    content: "";
+    top: -10px;
+    left: 0;
+    width: 100px;
+    height: 5px;
+    background: #F195B2;
+   
+  }
+  
+  .section-title::after {
+    position: absolute;
+    content: "";
+    top: -8px;
+    left: 0;
+    width: 100px;
+    height: 1px;
+    background: #62C3E7;
+  }
+  
+  .section-title.text-center::before,
+  .section-title.text-center::after {
+    left: calc(50% - 50px);
+   
+  }
+
+  .position-relative {
+    position: relative !important;
+    color: black;
+  }
+
+  .text-center {
+    text-align: center !important;
+  }
+  
+  
+ 
+  
+  
+  
+  
+  
+  
