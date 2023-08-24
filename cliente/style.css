@@ -99,14 +99,25 @@
     }
   }
   
-  .jumbotron-fluid {
-    padding-right: 0;
-    padding-left: 0;
-    border-radius: 0;
-    background-image: url(https://www.vive-santa-elena.com/wp-content/uploads/2019/06/kumini-cafe-bistro-5.jpg);
-   
+.encabezado-img{
+  background-image: url(./img/foto\ princi.jpg);
+  height: 900px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.encabezado-img p{
+  font-size: 20px;
+}
+.encabezado-img h1{
+  font-size: 50px;
+  padding: 20px 0;
+}
   
-  }
 
 
   .text-center {
@@ -158,6 +169,15 @@
   .text-center {
     text-align: center !important;
   }
+
+  .btn-secondary{
+    background-color: #FDCEDF;
+    border-radius: 40%;
+  }
+  .btn-secondary:hover{
+    color: #FFF4E0;
+  }
+
   
   
  
