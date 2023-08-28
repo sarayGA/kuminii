@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/contacto.css">
+   
     
 
     <link href="./img/icons8-cafe-100.png" rel="icon">
@@ -42,21 +43,30 @@
         </div>
       
     
-
-        <div class="Fila">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+        <form>
+            <div class="Formulario">
+                <div class="campo">
+                    <label for="nome"><strong>Nombre</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+    
+                <div class="campo">
+                    <label for="sobrenome"><strong>punto</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+    
+                <div class="campo">
+                    <label for="email"><strong>Email</strong></label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                
+                <!-- Agrega aquí más campos si es necesario -->
+    
+                <div class="campo">
+                    <button type="submit">Enviar</button>
+                </div>
             </div>
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Correo" aria-label="email">
-            </div>
-            <label for="exampleDataList" class="form-label"></label>
-      
-            
-            <button type="submit" class="btn btn-primary">Enviar</button>
-          </div>
-
-  
+        </form>
 
         <div class="content" style="margin-top: 90px;">
             <div class="container text-center py-5">
