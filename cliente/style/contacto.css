@@ -142,7 +142,11 @@ padding-top: 20px;
 }
 
 
-``
+.itm3{
+  align-items: center;
+  justify-content: center ;
+
+}
 
 
 
