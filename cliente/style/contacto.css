@@ -64,7 +64,9 @@ nav a:hover {
   background-attachment: fixed;
   background-size:cover ;
   height: 60vh;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -85,14 +87,16 @@ nav a:hover {
 
 
 .Formulario {
-  max-width: 400px;
+  max-width: 450px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 58px;
   border: 1px solid #aee2ff;
   background-color: #aee3ff57;
   align-items: center;
   align-self: center;
-
+  margin-top: 25px;
+  height: px;
+  pa
   
 }
 
@@ -108,7 +112,7 @@ label {
 input[type="text"],
 input[type="email"] {
   width: 100%;
-  padding: 8px;
+  padding: 9px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
@@ -121,6 +125,35 @@ button[type="submit"] {
   border-radius: 4px;
   cursor: pointer;
   width: 400px;
+ 
+}
+.campos{
+
+  cursor: pointer;
+  color: #FFFFFF;
+  font-size: 17px;
+  border-radius: 100rem;
+  border: none;
+  position: relative;
+  background: #fdcedf;
+  transition: 0.1s;
+}
+.campos::after{
+content: '';
+width: 100%;
+height: 100%;
+filter: blur(15px);
+z-index: -1;
+position: absolute;
+left: 0;
+top: ;
+background-image: #fff;
+}
+.campos:hover{
+transform: scale(0.9) rotate(3deg);
+color: #FFFFFF;
+transition: 0.5s;
+
 }
 
 .campo-nombre,
@@ -128,6 +161,7 @@ button[type="submit"] {
   display: inline-block;
   width: 45%;
   margin-right: 18px;
+  
 }
 
 
