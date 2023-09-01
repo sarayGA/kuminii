@@ -166,3 +166,61 @@
   ul{
     list-style: none;
   }
+
+  .Tarjetas{
+    display: flex;
+  }
+  .card{
+  margin-right:15px ;
+    border-radius: 20px;
+    margin-left: 15px;
+    height: 190px;
+    background-color: #aee2ff;
+    flex: 1;
+    transition: .3s all ease;
+    
+    
+  }
+
+  .card:hover{
+    
+    flex: 2;
+    background-color:#fdcedf;
+  }
+  
+  .card2{
+    margin-right:15px ;
+      border-radius: 20px;
+      margin-left: 15px;
+      height: 190px;
+      background-color: #aee2ff;
+      flex: 1;
+      transition: .3s all ease;
+      margin-top:25px ;
+      
+    }
+  
+    .card2:hover{
+      flex: 2;
+      background-color:#fdcedf;
+    }
+    
+    .card3{
+      margin-right:15px ;
+        border-radius: 20px;
+        margin-left: 15px;
+        height: 190px;
+        background-color: #aee2ff;
+        flex: 1;
+        transition: .3s all ease;
+        margin-top:25px ;
+        
+      }
+    
+      .card3:hover{
+        flex: 2;
+        background-color:#fdcedf;
+      }
+      
+
+   
