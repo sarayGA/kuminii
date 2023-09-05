@@ -36,6 +36,7 @@
     align-items: center;
     border-radius: 50px;
     margin-top: 4%;
+   
   }
   
   nav li{
@@ -64,7 +65,7 @@
   }
 
   body {
-    background: #f1dee5;
+    background: white;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #000;
@@ -72,10 +73,58 @@
     padding: 0;
   }
 
+
+  .jumbotron {
+  
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    color: #fff4e0;
+    border-radius: 0.3rem;
+  }
+  
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding: 4rem 2rem;
+    }
+  }
+  
+  .jumbotron-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+    background-image: url('../img/Cupp.PNG');
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  
+  
+  .text-center {
+    text-align: center !important;
+    color: rgb(255, 255, 255);
+    margin-top: 80px;
+    font-size: 20px;
+    font-family: 'nonito';
+  
+    
+  }
+  .col-lg-7{
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  
+  
+  
+  }
+  
+
   .swiper {
-    width: 80%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     margin-top: 200px;
+    
   }
 
   .swiper-slide {
@@ -85,8 +134,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:white;
   }
+
+.jgl{
+  width: 50%;
+  border-radius: 20px;
+  height: 70%;
+}
+
+
 
   .tam{
     text-align:center;
+  }
+  .swiper-button-next:after{
+    color: #D7C8ED;
+  }
+  .swiper-button-prev:after{
+    color: #D7C8ED;
   }
