@@ -122,12 +122,34 @@ nav a:hover{
   color: white;
 
   
+<<<<<<< HEAD
 }
 .col-lg-7{
 position: relative;
 width: 100%;
 padding-right: 15px;
 padding-left: 15px;
+=======
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding: 4rem 2rem;
+    }
+  }
+  
+<<<<<<< HEAD:cliente/style.css
+
+=======
+  .jumbotron-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+    background-image: url(https://www.vive-santa-elena.com/wp-content/uploads/2019/06/kumini-cafe-bistro-5.jpg);
+    
+   
+  
+  }
+>>>>>>> e52a08b395cc303cbe17382305c4f9daccb181b4:cliente/style/style.css
+>>>>>>> ee2331a32101f62188b762bbbd7c4691be73e137
 
 
 
@@ -171,8 +193,22 @@ padding-left: 15px;
   text-align: center !important;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:cliente/style.css
+  
+=======
+  .bem{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+   
+  }
+>>>>>>> ee2331a32101f62188b762bbbd7c4691be73e137
 
 
+>>>>>>> e52a08b395cc303cbe17382305c4f9daccb181b4:cliente/style/style.css
 
 
 h5, h4{

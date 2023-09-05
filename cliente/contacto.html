@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/contacto.css">
-    
 
-    <link href="./img/icons8-cafe-100.png" rel="icon">
+<title>Contacto</title>
+
+    <link href="./img/kuminilog.png" rel="icon">
 
 </head>
 
@@ -21,9 +22,9 @@
         </div>
 
         <nav>
-            <li><a href="">Home</a></li>
+            <li><a href="./index.html">Home</a></li>
             <li><a href="">Menu</a></li>
-            <li><a href="">Nosotros</a></li>
+            <li><a href="./quien.html">Nosotros</a></li>
             <img src="./img/kuminilog.png" alt="">
             <li><a href="">Servicio</a></li>
             <li><a href="">Galeria</a></li>
@@ -32,69 +33,75 @@
     </div>
 
     <div class="Container">
-        <div id="header-carousel" class="fotoprincipal">
-            <div class="inicio">
-                <div class="carousel-item active" style="background-image: url('ruta-de-tu-imagen.jpg');">
-                    <div class="textoprinci">
-                    </div>
+       
+        <form>
+            <div class="Formulario">
+                <div class="campo campo-nombre">
+                 
+                    <input type="text" name="nome" id="nome" required placeholder="Nombre">
+                 
+                </div>
+
+                <div class="campo campo-email">
+                   
+                    <input type="email" name="email" id="email" required placeholder="Telefono">
+                </div>
+
+                <div class="campo">
+                    <input type="email" class="form-control" id="" placeholder="Email">
+           
+                </div>
+                <div class="mb-3">
+                  
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+
+
+                <div class="campos">
+                    <button type="submit">Enviar</button>
                 </div>
             </div>
-        </div>
-      
-    
+        </form>
+    </div>
+    <div class="content" style="margin-top: 90px;">
+        <div class="container text-center py-5">
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <a href="index.html" class="navbar-brand m-0">
 
-        <div class="Fila">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
-            </div>
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Correo" aria-label="email">
-            </div>
-            <label for="exampleDataList" class="form-label"></label>
-      
-            
-            <button type="submit" class="btn btn-primary">Enviar</button>
-          </div>
+                    </a>
+                </div>
+                <div class="col-12 mb-4">
+                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-secondary btn-social" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
 
-  
-
-        <div class="content" style="margin-top: 90px;">
-            <div class="container text-center py-5">
-                <div class="row">
-                    <div class="col-12 mb-4">
-                        <a href="index.html" class="navbar-brand m-0">
-      
-                        </a>
-                    </div>
-                    <div class="col-12 mb-4">
-                        <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i
-                                class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-secondary btn-social" href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                  
-                    <div class="cuadro2">
-                          <div class="col-12 mt-2 mb-4">
+                <div class="cuadro2">
+                    <div class="col-12 mt-2 mb-4">
                         <div class="row">
                             <div class="col-sm-6 text-center text-sm-right border-right mb-3 mb-sm-0">
-                                <h1 class="m-0 mt-n2 display-4 text-primary"><span class="text-secondary"></span>Kumini</h1>
+                                <div class="kuminif"><h1 class="m-0 mt-n2 display-4 text-primary">Kumini</h1></div>
+                                <div id="foot">
                                 <h5 class="font-weight-bold mb-2"></h5>
-                                <p class="lef-text">LUGAR</p>
-                                <p class="lef-text">VEREDA PIEDRA GORDA</p>
-                                <p class="lef-text"> 3188044120</p>
+                               <ul> <li><p class="lef-text">LUGAR</p></li>
+                                <li><p class="lef-text">VEREDA PIEDRA GORDA</p></li>
+                                <li><p class="lef-text"> 3188044120</p></li></ul>
                                 <div class="separator"></div>
-                                <p class="right-text">HORARIOS</p>
-                                <p class="right-text"> MAR DOM, 10AM 8PM</p>
-                                <p class="right-text">LUNES: CERRADO </p>
+                               <ul> <li><p class="right-text">HORARIOS</p></li>
+                                <li><p class="right-text"> MAR DOM, 10AM 8PM</p></li>
+                                <li></li><p class="right-text">LUNES: CERRADO </p>
+                                </ul>
                             </div>
 
                         </div>
                     </div>
-                    </div>
                 </div>
             </div>
+        </div>
+    </div>
 
 </body>
 
