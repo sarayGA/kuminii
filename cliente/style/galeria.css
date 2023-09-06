@@ -180,24 +180,29 @@ ul {
 .Tarjetas {
   display: flex;
   size: 10px;
-  height: 100%;
-  width: 2000px;
+  height:  100%;
+ 
   white-space: 1000000px;
   position: relative;
   top: 24px;
   flex-wrap: wrap;
-  justify-content: space-between
-
+  justify-content: space-between;
+  gap: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
 }
 
 .card {
+  display: flex;
+ height: 12rem;
+ gap: 1rem;
   margin-right: 15px;
   border-radius: 20px;
   margin-left: 15px;
-  height: 190px;
   background-color: #aee2ff;
   flex: 1;
-  transition: .3s all ease;
+  transition: all .5s cubic-bezier(.25, .4, .45, 1.4);
   padding: 5px;
   box-sizing: content-box;
  
@@ -210,35 +215,53 @@ ul {
 }
 
 .ima1{
- 
-  border-radius: 20px;
+ display: flex;
+ height: 12rem;
+ gap: 1rem;
+ border-radius: 20px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: auto 100%;
 
-  height: 190px;
-
-top: 24ox;
-  padding: 5px;
-
- 
 }
 
 
 
+
 .card2 {
+  display: flex;
   margin-right: 15px;
   border-radius: 20px;
   margin-left: 15px;
-  height: 190px;
+  height: 12rem;
   background-color: #aee2ff;
+  gap: 1rem;
   flex: 1;
-  transition: .3s all ease;
   margin-top: 25px;
-
+  transition: all .5s cubic-bezier(.25, .4, .45, 1.4);
+  padding: 5px;
+  box-sizing: content-box;
+ 
 }
 
 .card2:hover {
   flex: 2;
   background-color: #fdcedf;
 }
+
+.ima2{
+  display: flex;
+  height: 12rem;
+  gap: 1rem;
+  border-radius: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+ 
+ }
+ 
+ 
+ 
 
 .card3 {
   margin-right: 15px;
@@ -256,3 +279,14 @@ top: 24ox;
   flex: 2;
   background-color: #fdcedf;
 }
+
+.ima3{
+  display: flex;
+  height: 12rem;
+  gap: 1rem;
+  border-radius: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+ 
+ }
