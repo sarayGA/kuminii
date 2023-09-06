@@ -121,24 +121,22 @@ nav a:hover{
   text-align: center !important;
   color: white;
 
-  
-<<<<<<< HEAD
 }
 .col-lg-7{
 position: relative;
 width: 100%;
 padding-right: 15px;
-padding-left: 15px;
-=======
+padding-left: 15px;}
+
+
   @media (min-width: 576px) {
     .jumbotron {
       padding: 4rem 2rem;
     }
   }
-  
-<<<<<<< HEAD:cliente/style.css
 
-=======
+
+
   .jumbotron-fluid {
     padding-right: 0;
     padding-left: 0;
@@ -148,12 +146,8 @@ padding-left: 15px;
    
   
   }
->>>>>>> e52a08b395cc303cbe17382305c4f9daccb181b4:cliente/style/style.css
->>>>>>> ee2331a32101f62188b762bbbd7c4691be73e137
 
 
-
-}
 
 .section-title::before {
   position: absolute;
@@ -193,11 +187,7 @@ padding-left: 15px;
   text-align: center !important;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD:cliente/style.css
-  
-=======
+
   .bem{
     position: relative;
     width: 100%;
@@ -205,10 +195,6 @@ padding-left: 15px;
     padding-left: 15px;
    
   }
->>>>>>> ee2331a32101f62188b762bbbd7c4691be73e137
-
-
->>>>>>> e52a08b395cc303cbe17382305c4f9daccb181b4:cliente/style/style.css
 
 
 h5, h4{

@@ -121,8 +121,8 @@
   
 
   .swiper {
-    width: 50%;
-    height: 50%;
+    width: 70%;
+    height: 70%;
     margin-top: 200px;
     
   }
@@ -140,7 +140,7 @@
 .jgl{
   width: 50%;
   border-radius: 20px;
-  height: 70%;
+  height: 80%;
 }
 
 
@@ -154,3 +154,39 @@
   .swiper-button-prev:after{
     color: #D7C8ED;
   }
+
+  .tom{
+    border: #fdcedf solid;
+    border-radius: 300px;
+    text-align: center;
+    width: 50px;
+    margin-left: 640px;
+    background-color: #fdcedf;
+  }
+
+  .dom{
+   background-color: #D7C8ED;
+    border: #D7C8ED  solid;
+    border-radius: 300px;
+    text-align: center;
+    width: 50px;
+    margin-left: 640px;
+   
+  }
+  .fom{
+    background-color: #DBDFAA;
+    border: #DBDFAA  solid;
+    border-radius: 300px;
+    text-align: center;
+    width: 50px;
+    margin-left: 640px;
+  }
+  .som{
+    background-color: #AEE2FF;
+    border: #AEE2FF solid;
+    border-radius: 300px;
+    text-align: center;
+    width: 50px;
+    margin-left: 640px;
+  }
+
