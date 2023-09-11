@@ -2,13 +2,27 @@
   margin: 0;
   padding: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Raleway', sans-serif;  
+
+}
+
 
 body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+    background-image: url('/cliente/img/Galeria/fd.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
 
 }
 
@@ -191,21 +205,23 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto 100%;
+  transition: all .5s cubic-bezier(.25, .4, .45, 1.4);
+
 }
 
 .card {
   display: flex;
- height: 12rem;
- gap: 1rem;
   margin-right: 15px;
   border-radius: 20px;
   margin-left: 15px;
-  background-color: #aee2ff;
+  height: 12rem;
+  background-color: #aee3ff65;
+  gap: 1rem;
   flex: 1;
+  margin-top: 25px;
   transition: all .5s cubic-bezier(.25, .4, .45, 1.4);
   padding: 5px;
   box-sizing: content-box;
- 
 }
 
 .card:hover {
@@ -217,11 +233,11 @@ ul {
 .ima1{
  display: flex;
  height: 12rem;
- gap: 1rem;
+
  border-radius: 20px;
  background-position: center;
  background-repeat: no-repeat;
- background-size: auto 100%;
+ 
 
 }
 
@@ -234,7 +250,7 @@ ul {
   border-radius: 20px;
   margin-left: 15px;
   height: 12rem;
-  background-color: #aee2ff;
+  background-color: #aee3ff65;
   gap: 1rem;
   flex: 1;
   margin-top: 25px;
@@ -252,27 +268,28 @@ ul {
 .ima2{
   display: flex;
   height: 12rem;
-  gap: 1rem;
+ 
   border-radius: 20px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto 100%;
- 
  }
  
  
  
 
 .card3 {
+  display: flex;
   margin-right: 15px;
   border-radius: 20px;
   margin-left: 15px;
-  height: 190px;
-  background-color: #aee2ff;
+  height: 12rem;
+  background-color: #aee3ff65;
+  gap: 1rem;
   flex: 1;
-  transition: .3s all ease;
   margin-top: 25px;
-
+  transition: all .5s cubic-bezier(.25, .4, .45, 1.4);
+  padding: 5px;
+  box-sizing: content-box;
 }
 
 .card3:hover {
@@ -290,3 +307,4 @@ ul {
   background-size: auto 100%;
  
  }
+
