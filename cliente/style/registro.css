@@ -7,7 +7,9 @@
 body{
   font-family: 'Raleway', sans-serif;
 
-  
+display: flex;
+flex-direction: column;
+align-items: center;
 
 }
 
@@ -93,7 +95,83 @@ nav a:hover{
     height: 500px;
     box-shadow: 0 5px 7px rgba(0, 0, 0, .1) ;
     transition: all 1s ease;
-    margin: 18px;
+    margin: 10px;
 }
+ .information {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #D7C8ED;
+  background-image: url(/cliente/img/entrada.PNG);
+  border-bottom-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 
+ }
 
+ .infor-childs {
+  width: 100%;
+  padding: 0 30px;
+ }
+
+ .infor-childs h2{
+  font-size: 2.5rem;
+ }
+ .infor-childs p{
+  margin: 15px 0;
+  color: antiquewhite;
+ }
+
+ .infor-childs input{
+  background-color: transparent;
+  outline: none;
+  border: solid 2px #D7C8ED;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: beige;
+  cursor: pointer;
+  transition: background-color .3s ease;
+  background-image: url(/cliente/img/entrada.PNG);
+ }
+
+ .info-childs input:hover{
+  background-color: #D7C8ED;
+  border: none;
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .1) ;
+ }
+
+ .form.information{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  text-align: center;
+  background-color: #fff;
+  border-top-right-radius: 20px;
+ }
+ .form-information-childs{
+  padding: 0 30px;
+ }
+ .form-information-childs h2{
+  color: #000;
+  font-size: 2rem;
+ }
+ .form-information-childs p{
+  color: #000;
+ }
+ .icons i{
+  border-radius: 50%;
+  padding: 15px;
+  cursor: pointer;
+  margin: 0 10px;
+  color: bisque;
+  transition: background-color 0.3s ease;
+  border: solid thin royalblue;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+ }
+ .icons i:hover{
+  background-color: aqua;
+  color: #fff;
+
+ }
