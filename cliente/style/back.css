@@ -23,7 +23,7 @@
     display: flex;
     flex-direction: row;
     margin-right: -65%;
-    margin-top: 10px;
+    margin-top: 40px;
   }
   .iconos img{
     padding: 10px;
@@ -123,11 +123,13 @@
   
 
   .swiper {
-    width: 70%;
-    height: 70%;
-    margin-top: 200px;
+    width: 50%;
+    height: 50%;
+    box-sizing: border-box;
+    float: left;
     
   }
+
 
   .swiper-slide {
     text-align: center;
@@ -140,15 +142,16 @@
   }
 
 .jgl{
-  width: 50%;
+  width: 40%;
   border-radius: 20px;
-  height: 80%;
+  height: 70%;
 }
 
 
 
   .tam{
     text-align:center;
+    font-size: 30px;
   }
   .swiper-button-next:after{
     color: #D7C8ED;
@@ -159,9 +162,9 @@
 
   .tom{
     border: #fdcedf solid;
-    border-radius: 300px;
+    border-radius: 200px;
     text-align: center;
-    width: 50px;
+    width: 40px;
     margin-left: 640px;
     background-color: #fdcedf;
   }
@@ -191,4 +194,70 @@
     width: 50px;
     margin-left: 640px;
   }
-
+  footer{
+    width: 10000000000000000000000000px;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -40;
+    
+  }
+  .loogo{
+    height: 80px;
+  }
+  
+  .social-icons-container, .footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  .social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #020000da;
+    background-image: url(/cliente/img/facebook\ \(1\).png);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+  }
+  .social-icon:hover{
+    background-color: #fdcedf;
+    filter: invert(1);
+  }
+  
+  .social-icon:nth-of-type(2){
+    background-image: url(/cliente/img/logotipo-de-instagram.png);
+  }
+  .social-icon:nth-of-type(3){
+    background-image: url(/cliente/img/tiktok.png);
+  }
+  
+  .footer-menu-container{
+    list-style-type: none;
+    color: #000203;
+    font-size: 18px;
+    width: 100%;
+  }
+  .menu-item{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+  }
+  .menu-item:hover{
+    opacity: 1;
+  }
+  .copyright{
+    color: #000000;
+    opacity: 0.3;
+    text-align: center;
+  }
+  
+  
