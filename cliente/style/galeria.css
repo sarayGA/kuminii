@@ -4,15 +4,11 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
-*{
-  margin: 0;
-  padding: 0;
-}
+
 body{
   font-family: 'Raleway', sans-serif;  
 
 }
-
 
 body {
   display: flex;
@@ -195,7 +191,6 @@ ul {
   display: flex;
   size: 10px;
   height:  100%;
- 
   white-space: 1000000px;
   position: relative;
   top: 24px;
@@ -216,12 +211,16 @@ ul {
   margin-left: 15px;
   height: 12rem;
   background-color: #aee3ff65;
+  position: relative;
   gap: 1rem;
   flex: 1;
   margin-top: 25px;
   transition: all .5s cubic-bezier(.25, .4, .45, 1.4);
   padding: 5px;
-  box-sizing: content-box;
+  overflow: hidden;
+  width: 290px; 
+  
+ 
 }
 
 .card:hover {
@@ -251,12 +250,14 @@ ul {
   margin-left: 15px;
   height: 12rem;
   background-color: #aee3ff65;
+  position: relative;
   gap: 1rem;
   flex: 1;
   margin-top: 25px;
   transition: all .5s cubic-bezier(.25, .4, .45, 1.4);
   padding: 5px;
-  box-sizing: content-box;
+  overflow: hidden;
+  width: 290px; 
  
 }
 
@@ -284,12 +285,14 @@ ul {
   margin-left: 15px;
   height: 12rem;
   background-color: #aee3ff65;
+  position: relative;
   gap: 1rem;
   flex: 1;
   margin-top: 25px;
   transition: all .5s cubic-bezier(.25, .4, .45, 1.4);
   padding: 5px;
-  box-sizing: content-box;
+  overflow: hidden;
+  width: 290px; 
 }
 
 .card3:hover {
@@ -308,3 +311,28 @@ ul {
  
  }
 
+ .card_texto{
+  width: 100%;
+  height: 100%;
+  line-height: 1.4;
+  opacity: 0; 
+  transform: translateX(-100%); 
+  transition: opacity 0.5s, transform 0.5s; 
+
+
+ }
+
+ .card:hover .card_texto {
+  opacity: 1;
+  transform: translateX(0); }
+
+  
+   .card2:hover .card_texto {
+    opacity: 1;
+    transform: translateX(0); }
+  
+    .card3:hover .card_texto {
+      opacity: 1;
+      transform: translateX(0); }
+    
+  
