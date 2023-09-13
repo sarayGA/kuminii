@@ -52,15 +52,16 @@ body{
   justify-content: center;
   align-items: center;
 }
-.iconos{
+.iconos {
   width: 80px;
-  height: 80px;
+  height: -0px;
   display: flex;
   flex-direction: row;
   margin-right: -65%;
   margin-top: 10px;
 }
-.iconos img{
+
+.iconos img {
   padding: 10px;
 }
 nav{
@@ -300,11 +301,77 @@ font-size: 2em;
 color: var(--clr);
 }
 
+.texto1{
+  text-align: justify;
+}
 .titulos{
   font-size: 20px;
 }
+footer{
+  width: 10000000000000000000000000px;
+  bottom: 0;
+  left: 0;
+  padding: 2rem 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -40;
+  
+}
+.loogo{
+  height: 80px;
+}
 
+.social-icons-container, .footer-menu-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.social-icon{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: 1px solid #020000da;
+  background-image: url(/cliente/img/facebook\ \(1\).png);
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  margin: 1rem;
+}
+.social-icon:hover{
+  background-color: #fdcedf;
+  filter: invert(1);
+}
 
+.social-icon:nth-of-type(2){
+  background-image: url(/cliente/img/logotipo-de-instagram.png);
+}
+.social-icon:nth-of-type(3){
+  background-image: url(/cliente/img/tiktok.png);
+}
+
+.footer-menu-container{
+  list-style-type: none;
+  color: #000203;
+  font-size: 18px;
+  width: 100%;
+}
+.menu-item{
+  margin: 1rem 1.5rem;
+  cursor: pointer;
+  opacity: 0.6;
+}
+.menu-item:hover{
+  opacity: 1;
+}
+.copyright{
+  color: #000000;
+  opacity: 0.3;
+  text-align: center;
+}
 
 
 
