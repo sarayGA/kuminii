@@ -1,19 +1,13 @@
-<<<<<<< HEAD
+
 * {
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
 }
-=======
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    font-family:  'Raleway', sans-serif;
-    font-family: 'Raleway', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
-  }
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+ 
 
   
   
@@ -68,7 +62,7 @@
   nav a:hover{
     color: rgb(205, 101, 172);
   }
->>>>>>> 6a8ec3f28678b7382f0c63f29d8eda9a70a82de1
+
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
