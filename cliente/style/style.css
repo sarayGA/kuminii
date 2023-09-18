@@ -441,6 +441,80 @@ margin-top: 5px;
 }
 
 
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2rem 8%;
+  margin-top: 1100px;
+
+}
+
+.loogo {
+  height: 80px;
+}
+
+.social-icons-container,
+.footer-menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.social-icon {
+
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: 1px solid #020200da;
+  background-image: url(/cliente/img/facebook\ \(1\).png);
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  margin: 1rem;
+}
+
+.social-icon:hover {
+  background-color: white;
+  filter: invert(1);
+}
+
+.social-icon:nth-of-type(2) {
+  background-image: url(/cliente/img/logotipo-de-instagram.png);
+}
+
+.social-icon:nth-of-type(3) {
+  background-image: url(/cliente/img/tiktok.png);
+
+}
+
+.footer-menu-container {
+  list-style-type: none;
+  color: #000000;
+  font-size: 18px;
+  width: 100%;
+}
+
+.menu-item {
+  margin: 1rem 1.5rem;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.menu-item:hover {
+  opacity: 1;
+}
+
+.copyright {
+  color: #0a0a0a;
+  opacity: 0.3;
+  text-align: center;
+}
+
 
 
  
