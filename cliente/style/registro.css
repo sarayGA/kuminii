@@ -86,7 +86,7 @@ nav li{
   list-style: none;
 }
 nav a{
-  color: black;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 25px;
   margin: 25px;
@@ -116,8 +116,7 @@ nav a:hover{
   align-items: center;
   text-align: center;
   background-color: #D7C8ED;
-  background-image: url(/cliente/img/entrada.PNG);
-  border-bottom-left-radius: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.28),rgba(0, 0, 0, 0.28)),url(/cliente/img/entrada.PNG);  border-bottom-left-radius: 20px;
   border-bottom-left-radius: 20px;
 
  }
@@ -151,7 +150,7 @@ nav a:hover{
   background-color: #D7C8ED;
   border: none;
   color: #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, .1) ;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) ;
  }
 
  .form.information{
@@ -171,7 +170,7 @@ nav a:hover{
   font-size: 2rem;
  }
  .form-information-childs p{
-  color: #000;
+  color: #000000;
  }
  .icons i{
   border-radius: 50%;
@@ -181,7 +180,7 @@ nav a:hover{
   color: bisque;
   transition: background-color 0.3s ease;
   border: solid thin royalblue;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
  }
  .icons i:hover{
   background-color: aqua;
@@ -253,4 +252,8 @@ nav a:hover{
   color: #000000;
   opacity: 0.3;
   text-align: center;
+}
+
+.testo{
+  
 }
