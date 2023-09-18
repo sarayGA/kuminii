@@ -19,7 +19,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
-
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -56,10 +56,12 @@ body {
   align-items: center;
   border-radius: 50px;
   margin-top: 4%;
+  font-family: 'Raleway', sans-serif;
 }
 
 .navg li {
   list-style: none;
+  font-family: 'Raleway', sans-serif;
 }
 
 .navg a {
@@ -67,6 +69,7 @@ body {
   text-decoration: none;
   font-size: 25px;
   margin: 25px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .navg img {
@@ -76,10 +79,11 @@ body {
 
 .navg a:hover {
   color: #d7c8ed;
+  font-family: 'Raleway', sans-serif;
 }
 
 .Container {
-  background-image: url('/cliente/img/galeriaPrincipal.PNG');
+  
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -87,6 +91,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Raleway', sans-serif;
 
 }
 
@@ -110,49 +115,6 @@ body {
   padding: 0px;
 }
 
-.footer {
-  background-color: #333;
-
-
-  color: rgb(45, 8, 70);
-  text-align: center;
-  padding: 100px;
-  position: absolute;
-  bottom: 0;
-
-
-  width: 1000%;
-}
-
-.left-text,
-.right-text {
-  flex: 1;
-  text-align: left;
-  margin: 0;
-}
-
-
-
-.cuadro2 {
-  width: 100%;
-  height: 200px;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-
-
-.separator {
-  width: 2px;
-
-  align-items: center;
-  height: 100px;
-  background-color: #fdcedf;
-  margin: 0 10px;
-}
 
 .form-container {
 
@@ -163,29 +125,11 @@ body {
   padding-top: 20px;
 }
 
-.centered-form {
-  background-color: #f0f0f0;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
 
-.kuminif {
-  text-align: center;
 
-}
 
-#foot {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
 
-}
 
-ul {
-  list-style: none;
-}
 
 .Tarjetas {
   display: flex;
@@ -201,6 +145,7 @@ ul {
   background-repeat: no-repeat;
   background-size: auto 100%;
   transition: all .5s cubic-bezier(.25, .4, .45, 1.4);
+  font-family: 'Raleway', sans-serif;
 
 }
 
@@ -318,7 +263,7 @@ ul {
   opacity: 0; 
   transform: translateX(-100%); 
   transition: opacity 0.5s, transform 0.5s; 
-
+  font-family: 'Raleway', sans-serif;
 
  }
 
@@ -336,3 +281,66 @@ ul {
       transform: translateX(0); }
     
   
+      footer{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      bottom: 0;
+      left: 0;
+      margin-top: 60px;
+      padding: 2rem 8%;
+      }
+      .loogo{
+        height: 80px;
+      }
+      
+      .social-icons-container, .footer-menu-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+      }
+      .social-icon{
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        border: 1px solid #020000da;
+        background-image: url(/cliente/img/facebook\ \(1\).png);
+        background-position: center;
+        background-size: 40%;
+        background-repeat: no-repeat;
+        margin: 1rem;
+      }
+      .social-icon:hover{
+        background-color: white;
+        filter: invert(1);
+      }
+      
+      .social-icon:nth-of-type(2){
+        background-image: url(/cliente/img/logotipo-de-instagram.png);
+      }
+      .social-icon:nth-of-type(3){
+        background-image: url(/cliente/img/tiktok.png);
+      }
+      
+      .footer-menu-container{
+        list-style-type: none;
+        color: #000203;
+        font-size: 18px;
+        width: 100%;
+      }
+      .menu-item{
+        margin: 1rem 1.5rem;
+        cursor: pointer;
+        opacity: 0.6;
+      }
+      .menu-item:hover{
+        opacity: 1;
+      }
+      .copyright{
+        color: #000000;
+        opacity: 0.3;
+        text-align: center;
+      }
