@@ -3,13 +3,25 @@
   padding: 0;
 }
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-}
+
+
 body{
   font-family: 'Raleway', sans-serif;  
 
+
+}
+
+body {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    background-image: url('/cliente/img/pepeeee.webp'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    font-family: 'Raleway', sans-serif;
 }
 
 .cuadro {
@@ -22,9 +34,10 @@ body{
   align-items: center;
 }
 
+
 .iconos {
   width: 80px;
-  height: 80px;
+  height: -0px;
   display: flex;
   flex-direction: row;
   margin-right: -65%;
@@ -34,6 +47,7 @@ body{
 .iconos img {
   padding: 10px;
 }
+
 
 nav {
   display: flex;
@@ -68,7 +82,7 @@ nav a:hover {
 }
 
 .Container {
-  background-image: url('/cliente/img/fondocontacto.PNG');
+
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size:cover ;
@@ -96,6 +110,7 @@ nav a:hover {
 
 
 .Formulario {
+  width: 500px;
   max-width: 450px;
   margin: 0 auto;
   padding: 58px;
@@ -160,7 +175,7 @@ background-image: #fff;
 }
 .campos:hover{
 transform: scale(0.9) rotate(3deg);
-color: #FFFFFF;
+
 transition: 0.5s;
 
 }
@@ -242,4 +257,40 @@ footer{
 .copyright{
   color: #000000;
   opacity: 0.3;
+}
+
+
+.campo-foto {
+  margin-bottom: 15px;
+
+}
+
+.campo-foto label {
+  display: block;
+  font-weight: bold;
+}
+
+.campo-foto input[type="file"] {
+  width: 100%;
+  padding: 9px;
+  border-radius: 4px;
+}
+
+
+.campo-foto input[type="file"] {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.campo-foto input[type="file"]::-webkit-file-upload-button {
+  background-color: #fdcedf;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.campo-foto input[type="file"]::-webkit-file-upload-button:hover {
+  background-color: #d7c8ed;
 }
