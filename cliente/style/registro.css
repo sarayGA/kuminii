@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
+
 }
 body{
   font-family: 'Raleway', sans-serif;
@@ -11,7 +12,7 @@ body{
 display: flex;
 flex-direction: column;
 align-items: center;
-
+background-color: #ffffff;
 }
 .iconos {
   width: 80px;
@@ -30,8 +31,8 @@ align-items: center;
   color: #D7C8ED;
 }
 .encabezado-img{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.28),rgba(0, 0, 0, 0.28)),url(/cliente/img/rregistto.PNG);
-    height: 500px;
+background-color:#fff2f7 ;
+    height: 50px;
     width: 100%;
     background-size: cover;
     display: flex;
@@ -109,6 +110,8 @@ nav a:hover{
     box-shadow: 0 5px 7px rgba(0, 0, 0, .1) ;
     transition: all 1s ease;
     margin: 10px;
+    background-color: #fff2f7;
+    margin-top: 200px;
 }
  .information {
   width: 40%;
@@ -116,11 +119,14 @@ nav a:hover{
   align-items: center;
   text-align: center;
   background-color: #D7C8ED;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.28),rgba(0, 0, 0, 0.28)),url(/cliente/img/entrada.PNG);  border-bottom-left-radius: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.28),rgba(0, 0, 0, 0.28)),url(/cliente/img/pppppp.PNG);
+
   border-bottom-left-radius: 20px;
 
  }
-
+ .info-childs{
+  color: white;
+ }
  .infor-childs {
   width: 100%;
   padding: 0 30px;
@@ -128,14 +134,14 @@ nav a:hover{
 
  .infor-childs h2{
   font-size: 2.5rem;
+  margin-top: -px;
  }
  .infor-childs p{
   margin: 15px 0;
-  color: antiquewhite;
+  color: rgb(255, 253, 251);
  }
 
  .infor-childs input{
-  background-color: transparent;
   outline: none;
   border: solid 2px #D7C8ED;
   border-radius: 20px;
@@ -143,34 +149,35 @@ nav a:hover{
   color: beige;
   cursor: pointer;
   transition: background-color .3s ease;
-  background-image: url(/cliente/img/entrada.PNG);
+ 
  }
 
  .info-childs input:hover{
   background-color: #D7C8ED;
   border: none;
-  color: #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) ;
+  color: #000000;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1) ;
  }
 
- .form.information{
+ .fofo .information{
   display: flex;
   align-items: center;
   justify-content: center;
   width: 60%;
   text-align: center;
-  background-color: #fff;
+  background-color: #000000;
   border-top-right-radius: 20px;
  }
  .form-information-childs{
   padding: 0 30px;
  }
  .form-information-childs h2{
-  color: #000;
+  color: #070707;
   font-size: 2rem;
+  margin-top: 40px;
  }
  .form-information-childs p{
-  color: #000000;
+  color: #060505;
  }
  .icons i{
   border-radius: 50%;
@@ -184,8 +191,51 @@ nav a:hover{
  }
  .icons i:hover{
   background-color: aqua;
-  color: #fff;
+  color: #000000;
 
+ }
+ .fofo{
+  margin: 38px 0 0 0;
+ }
+
+ .fofo label{
+  border: center;
+  display:flex;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  padding: 0 10px;
+  border: solid thin rgb(248, 246, 246);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+ }
+ .fofo label input{
+  width: 100%;
+  padding: 18px;
+  background-color: #fff2f7;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  color: #000203;
+  
+
+ }
+
+ .fofo label i{
+  color:#a7a7a7 ;
+ }
+
+ .fofo input[type="submit"]{
+  background-color:#fdcedf ;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+ }
+ .fofo input[type="submit"]:hover{
+  background-color: #d5a5b6;
+  
  }
 
  footer{
@@ -203,6 +253,7 @@ nav a:hover{
 .loogo{
   height: 80px;
 }
+
 
 .social-icons-container, .footer-menu-container{
   display: flex;
@@ -253,7 +304,48 @@ nav a:hover{
   opacity: 0.3;
   text-align: center;
 }
-
-.testo{
-  
+.boton{
+  width: 165px;
+  height: 62px;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-size: 17px;
+  border-radius: 1rem;
+  border: none;
+  position: relative;
+  background: #fdcedf;
+  transition: 0.1s;
 }
+.boton:hover{
+  color: #d5a5b6;
+}
+
+@media screen and (max-width:750px){
+  html{
+  font-size: 12px;
+  }
+}
+@media screen and (max-width:580px){
+  html{
+  font-size: 10px;
+  }
+  .container-form{
+  height: auto;
+  flex-direction: column;
+  }
+  .information{
+    width: 100%;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0;
+  }
+  .form-information{
+    width: 100%;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 0;
+  }
+}
+
