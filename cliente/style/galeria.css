@@ -344,3 +344,15 @@ body {
         opacity: 0.3;
         text-align: center;
       }
+
+      .footer{
+     
+        width: 119%;
+        height: 400px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom:-80px ;
+      }
