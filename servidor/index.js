@@ -281,8 +281,8 @@ app.delete('/delete/:id',(req,res)=>{
 
 //sugerencia//
 
-app.get('/',(req, res)=>{
-    db.query('select * from sugerencia',
+app.get('/sugerencias',(req, res)=>{
+    db.query('select * from sugerencias',
     (err,result) =>{
         if(err)console.log(err)
         else{
@@ -298,12 +298,14 @@ app.post('/crear', (req,rest)=>{
     const nombre = req.body.nombre;
     const email = req.body.email;
     const mensaje = req.body.mensaje;
+    const img = req.body.img;
+    
     
     
     
 
 
-    db.query('INSERT INTO cliente VALUES (?,?,?,?,?)', [id_cliente, nombre,  email, mensaje,] ), 
+    db.query('INSERT INTO cliente VALUES (?,?,?,?,?)', [id_cliente, nombre,  email, mensaje,img] ), 
     (err, result)=>{
         if(err)console.log(err)
         else{
@@ -319,11 +321,13 @@ app.put('/edit', (req,res)=>{
     const nombre = req.body.nombre;
     const email = req.body.email;
     const mensaje = req.body.mensaje;
+    const img = req.body.img;
     
     
     
     
-    db.query('UPDATE orden SET Nombre=?,N_Telefono=?,Email=? WHERE id_cliente=?', [id_cliente, nombre, email, mensaje] ), 
+    
+    db.query('UPDATE orden SET Nombre=?,N_Telefono=?,Email=? WHERE id_cliente=?', [id_cliente, nombre, email, mensaje, img] ), 
     (err, result)=>{
         if(err)console.log(err)
         else{
