@@ -10,10 +10,7 @@
 body{
   font-family: 'Raleway', sans-serif;
 
-max-width: 100%;
 }
-
-
 
 .topbarr{
   color: #D7C8ED;
@@ -144,14 +141,12 @@ padding-left: 15px;
 .encabezado-img{
   background-image: url(/cliente/img/foto\ princi.jpg);
   height: 900px;
-
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #fff;
- 
 }
 
 .encabezado-img p{
