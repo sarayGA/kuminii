@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/contacto.css">
-    <link rel="stylesheet" href="./script/contacto.js">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
@@ -19,12 +19,13 @@
 <body>
     <div class="cuadro">
         <div class="iconos">
-            <a><img src="./img/icons8-facebook-24.png" alt=""></a>
+            <a href="https://m.facebook.com/kuminicafe/" ><img src="./img/icons8-facebook-24.png" alt=""></a>
             <a href="https://www.instagram.com/kuminicafeoficial/"><img src="./img/icons8-instagram-24.png" alt=""></a>
             <a href="https://www.tiktok.com/@lasqueso43?is_from_webapp=1&sender_device=pc"><img
                     src="./img/icons8-tik-tok-24.png" alt=""></a>
         </div>
 
+    
 
         <nav>
             <li><a href="./index.html">Home</a></li>
@@ -39,8 +40,8 @@
 
     <div class="Container">
 
-        <form>
-            <div class="Formulario">
+        <form id="forms">
+            <div class="Formulario" >
                 <div class="campo campo-nombre">
 
                     <input type="text" name="nome" id="nome" required placeholder="Nombre">
@@ -53,7 +54,7 @@
                 </div>
 
 
-
+                
                 <div class="campo campo-email">
 
                     <input type="text" name="comment" id="comment" required placeholder="Comentario">
@@ -61,7 +62,7 @@
 
                 <div class="campo campo-foto">
 
-                    <input type="file" name="foto" id="foto" accept="image/*">
+                    <input type="text" name="foto" id="foto" >
 
                    
                 </div>
@@ -123,7 +124,11 @@
             </div>
 
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="./script/contacto.js"></script>   
 
 </body>
+
+
 
 </html>
