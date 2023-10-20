@@ -10,8 +10,9 @@
 body{
   font-family: 'Raleway', sans-serif;  
   background-color: #fff4e0;
+  }
 
-}
+
 
 .cuadro{
   width: 100%;
@@ -242,6 +243,7 @@ border-radius: 5px !important;
 
 .container-fluid{
 margin-top: -55px;
+
 }
 
 
@@ -486,7 +488,9 @@ footer {
   text-align: center;
 }
 
-
+.row {
+  color: white;
+}
 
  
 
