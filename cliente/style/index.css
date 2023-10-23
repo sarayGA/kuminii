@@ -135,9 +135,14 @@ transform: scale(0.9) rotate(3deg);
 color: #FFFFFF;
 transition: 0.5s;
 
+
+
 }
 
-.container{
+
+
+
+.container {
   position: relative;
   display: flex;
   justify-content: center;
@@ -145,7 +150,15 @@ transition: 0.5s;
   flex-wrap: wrap;
   padding: 50px 0;
   gap: 40px 60px;
+ 
 }
+
+
+.py-5 {
+  
+  background: white;
+}
+
 .container .drop{
   position: relative;
   width: 350px;
