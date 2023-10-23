@@ -257,7 +257,7 @@ footer{
 .social-icon:hover{
   background-color: #fdcedf;
   filter: invert(1);
-}
+}  
 
 .social-icon:nth-of-type(2){
   background-image: url(/cliente/img/logotipo-de-instagram.png);
@@ -375,8 +375,7 @@ input[type="checkbox"] {
   }
 
   .Formulario {
-    max-width: 100%
-    0;
+    max-width: 410px;
   }
 
   nav li {
@@ -393,7 +392,7 @@ input[type="checkbox"] {
   }
 
   button[type="submit"] {
-    padding: 8px;
+    padding: 9px;
   }
 
   .social-icon {
