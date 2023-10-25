@@ -24,88 +24,129 @@ font-family: 'Raleway', sans-serif;
     color: #fff;
     z-index: -1;
   }
-  .iconos {
-    width: 80px;
-    height: -0px;
-    display: flex;
-    flex-direction: row;
-    margin-right: -65%;
-    margin-top: 10px;
-  }
-  
-  .iconos img {
-    padding: 10px;
-  }
-  
-  .encabezado-img p{
-    font-size: 20px;
-    font-family: 'Raleway', sans-serif;
-  }
-  .encabezado-img h1{
-    font-size: 50px;
-    padding: 20px 0;
-  }
-  
-  
-  .topbarr{
-    color: #D7C8ED;
-  }
-  .cuadro{
-    width: 100%;
-    height: 150px;
-    background-color: #D7C8ED;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .iconos{
-    width: 80px;
-    height: 80px;
-    display: flex;
-    flex-direction: row;
-    margin-right: -65%;
-    margin-top: 10px;
-  }
-  .iconos img{
-    padding: 10px;
-  }
-  nav{
-    display: flex;
-    flex-direction: row;
-    width: 70%;
-    height: 80px;
-    background-color: white ;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    margin-top: 4%;
-  }
-  
-  nav li{
-    list-style: none;
-  }
-  nav a{
-    color: black;
-    text-decoration: none;
-    font-size: 25px;
-    margin: 25px;
-  }
+  /*menu*/
+.toggle-menu {
+  position: absolute;
+  top: 0.5rem;
+  right: 1.5rem;
+  cursor: pointer;
+  filter: invert(1);
+  width: 40px;
+  z-index: 1;
+}
 
-  nav img{
-    width: 150px;
-    height: 150px;
+@media screen and (min-width: 768px) {
+  .toggle-menu {
+    display: none;
   }
-  
-  nav a:hover{
-    color: rgb(205, 101, 172);
+}
+
+img {
+  max-width: 100%;
+  z-index: 1;
+}
+
+.main-nav {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(0);
+}
+.seccion-1{
+  display: flex;
+  flex-direction: row;
+}
+.main-menu {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 0%;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  transition: transform 0.3s;
+  transform: translateY(-10%);
+}
+
+
+.main-menu_item {
+  padding: 1em;
+}
+
+.hidden {
+  display: none;
+}
+
+.main-menu--show {
+  transform: translateY(0);
+}
+
+.toggle-menu-checkbox:checked+.main-menu {
+  transform: translateY(0);
+}
+
+.toggle-menu-checkbox {
+  display: none;
+}
+
+.gg {
+  display: flex;
+  height: 0px;
+  align-items: center;
+  margin: auto;
+}
+
+.k.menu-open {
+  /* Estilos para la imagen "k" cuando el menú esté abierto */
+  /* Por ejemplo, puedes agregar una animación para indicar que el menú está abierto */
+}
+
+@media screen and (min-width: 768px) {
+  .main-menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+    width: 100%;
+    height: 80px;
+
   }
-  .jumbotron {
-    padding: 2rem 1rem;
-    margin-bottom: 2rem;
-    background-color: #e9ecef;
-    border-radius: 0.3rem;
+.gg{
+  height: 40px;
+}
+.main-nav{
+  background-color: #D7C8ED;
+
+}
+a{
+  color: #000000;
   }
+  a{
+    color: #dac9f3;
+  }
+}
+
+.main-menu_item {
+  padding: 1em;
+}
+
+.main-menu_link {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*fin menu*/
+ 
 
   .form{
     margin-top: 200px;

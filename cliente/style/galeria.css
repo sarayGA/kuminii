@@ -23,91 +23,135 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-@media (max-width: 750px) {
-  .Container {
-    height: 40vh;
+
+
+
+
+
+
+
+/*menu*/
+.toggle-menu {
+  position: absolute;
+  top: 0.5rem;
+  right: 1.5rem;
+  cursor: pointer;
+  filter: invert(1);
+  width: 40px;
+  z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .toggle-menu {
+    display: none;
   }
 }
 
-
-@media (max-width: 580px) {
-  .Container {
-    height: 30vh;
-  }
+img {
+  max-width: 100%;
+  z-index: 1;
 }
 
-
-.cuadro {
+.main-nav {
   width: 100%;
   height: 150px;
-  background-color: #d7c8ed;
+  background-color: white;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  transform: translateY(0);
 }
-
-.iconos {
-  width: 80px;
-  height: -0px;
+.seccion-1{
   display: flex;
   flex-direction: row;
-  margin-right: -65%;
-  margin-top: 10px;
 }
-
-.iconos img {
-  padding: 10px;
-}
-
-@media (max-width: 768px) {
-  .navg {
-    flex-direction: row;
-    height: auto;
-  }
-
-  .navg li {
-    margin: 1000px 0;
-  }
-}
-
-
-
-.navg {
+.main-menu {
+  list-style: none;
   display: flex;
-  flex-direction: row;
-  width: 70%;
+  flex-direction: column;
+  width: 0%;
   height: 80px;
-  background-color: white;
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-  margin-top: 4%;
-  font-family: 'Raleway', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  transition: transform 0.3s;
+  transform: translateY(-10%);
 }
 
-.navg li {
-  list-style: none;
-  font-family: 'Raleway', sans-serif;
+
+.main-menu_item {
+  padding: 1em;
 }
 
-.navg a {
+.hidden {
+  display: none;
+}
+
+.main-menu--show {
+  transform: translateY(0);
+}
+
+.toggle-menu-checkbox:checked+.main-menu {
+  transform: translateY(0);
+}
+
+.toggle-menu-checkbox {
+  display: none;
+}
+
+.gg {
+  display: flex;
+  height: 0px;
+  align-items: center;
+  margin: auto;
+}
+
+.k.menu-open {
+  /* Estilos para la imagen "k" cuando el menú esté abierto */
+  /* Por ejemplo, puedes agregar una animación para indicar que el menú está abierto */
+}
+
+@media screen and (min-width: 768px) {
+  .main-menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+    width: 100%;
+    height: 80px;
+
+  }
+.gg{
+  height: 40px;
+}
+.main-nav{
+  background-color: #D7C8ED;
+
+}
+a{
+  color: #000000;
+  }
+  a{
+    color: #dac9f3;
+  }
+}
+
+.main-menu_item {
+  padding: 1em;
+}
+
+.main-menu_link {
   color: black;
+  text-transform: uppercase;
   text-decoration: none;
-  font-size: 25px;
-  margin: 25px;
   font-family: 'Raleway', sans-serif;
 }
 
-.navg img {
-  width: 150px;
-  height: 150px;
-}
-
-.navg a:hover {
-  color: rgb(205, 101, 172);
-  font-family: 'Raleway', sans-serif;
-}
+/*fin menu*/
 
 .Container {
 
