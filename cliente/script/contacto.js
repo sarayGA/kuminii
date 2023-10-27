@@ -24,7 +24,20 @@ console.log (nombre)
 
 }
     
+document.getElementById("custom-upload-button").addEventListener("click", function () {
+    document.getElementById("archivo").click();
+  });
 
+  function mostrarNombreArchivo() {
+    var input = document.getElementById("foto");
+    var nombreArchivo = input.value.split('\\').pop(); // Obtener el nombre del archivo
+  
+    if (nombreArchivo) {
+      alert("Nombre del archivo seleccionado: " + nombreArchivo);
+    } else {
+      alert("No se ha seleccionado ningún archivo.");
+    }
+  }
 /*
 
 

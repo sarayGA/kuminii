@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/contacto.css">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
@@ -18,86 +18,79 @@
 
 <body>
     <!-- menu-->
-<nav class="main-nav">
-    <div class="toggle-menu" id="toggle-menu">
-        <label for="toggle-menu-checkbox"></label>
-        
-    </div>
-     </div>
-    <ul id="main-menu" class="main-menu">
-        <div class="seccion-1">
-             <li class="main-menu_item">
-            <a href="./index.html" class="main-menu_link">Home</a>
-        </li>
-        <li class="main-menu_item">
-            <a href="./menu.html" class="main-menu_link">Menu</a>
-        </li>
-        <li class="main-menu_item">
-            <a href="./quien.html" class="main-menu_link">Nosotros</a>
-        </li>
+    <nav class="main-nav">
+        <div class="toggle-menu" id="toggle-menu">
+            <label for="toggle-menu-checkbox"></label>
+
         </div>
-        
-       <div class="seccion-1">
-        
-       <img class="gg" src="./img/nuevo logo.png" alt="">
-        <li class="main-menu_item">
-            <a href="./galeria.html" class="main-menu_link">Galeria</a>
-        </li> 
-        <li class="main-menu_item">
-            <a href="./inicioregistro.html" class="main-menu_link">Iniciar </a>
-        </li>
-        <li class="main-menu_item">
-            <a href="./contacto.html" class="main-menu_link">Contacto</a>
-        </li>
-       </div>
-        
-    </ul>
-  </nav>
-  <script src="./script/menu.js"></script>
-  
-  </div>
-  <!-- fin  menu-->
+        </div>
+        <ul id="main-menu" class="main-menu">
+            <div class="seccion-1">
+                <li class="main-menu_item">
+                    <a href="./index.html" class="main-menu_link">Home</a>
+                </li>
+                <li class="main-menu_item">
+                    <a href="./menu.html" class="main-menu_link">Menu</a>
+                </li>
+                <li class="main-menu_item">
+                    <a href="./quien.html" class="main-menu_link">Nosotros</a>
+                </li>
+            </div>
+
+            <div class="seccion-1">
+
+                <img class="gg" src="./img/nuevo logo.png" alt="">
+                <li class="main-menu_item">
+                    <a href="./galeria.html" class="main-menu_link">Galeria</a>
+                </li>
+                <li class="main-menu_item">
+                    <a href="./inicioregistro.html" class="main-menu_link">Iniciar </a>
+                </li>
+                <li class="main-menu_item">
+                    <a href="./contacto.html" class="main-menu_link">Contacto</a>
+                </li>
+            </div>
+
+        </ul>
+    </nav>
+    <script src="./script/menu.js"></script>
+
+    </div>
+    <!-- fin  menu-->
     <div class="Container">
 
         <form id="forms">
-            <div class="Formulario" >
-                <div class="campo campo-nombre">
-
-                    <input type="text" name="nome" id="nome" required placeholder="Nombre">
-
-                </div>
-
-                <div class="campo campo-email">
-
-                    <input type="email" name="email" id="email" required placeholder="Email">
-                </div>
-
-
-                
-                <div class="campo campo-email">
-
-                    <input type="text" name="comment" id="comment" required placeholder="Comentario">
-                </div>
-
-                <div class="campo campo-foto">
-
-                    <input type="text" name="foto" id="foto" >
-
-                   
-                </div>
-                <div class="campo">
-                    <label for="aceptar">
-                        <input type="checkbox" id="aceptar" name="aceptar">
-                        <span class="let">Acepto los Términos y Condiciones</span>
-                    </label>
-                </div>
-
-                <div class="campos">
-
-                    <button type="submit">Enviar</button>
-                </div>
-        </form>
-
+            <div class="Formulario">
+              <div class="campo campo-nombre">
+                <input type="text" name="nome" id="nome" required placeholder="Nombre">
+              </div>
+          
+              <div class="campo campo-email">
+                <input type="email" name="email" id="email" required placeholder="Email">
+              </div>
+          
+              <div class="campo campo-email">
+                <input type="text" name="comment" id="comment" required placeholder="Comentario">
+              </div>
+          
+              <div class="campo campo-foto">
+                <input type="file" name="foto" id="foto" accept="image/*" onchange="mostrarNombreArchivo()">
+                <label for="foto">Subir Foto</label>
+              </div>
+              
+              <div class="campo">
+                <label for="aceptar">
+                  <input type="checkbox" id="aceptar" name="aceptar">
+                  <span class="let">Acepto los Términos y Condiciones</span>
+                </label>
+              </div>
+          
+              <div class="campos">
+                <button type="submit">Enviar</button>
+              </div>
+            </div>
+          </form>
+          
 
 
 
@@ -144,7 +137,7 @@
 
         </div>
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-        <script src="./script/contacto.js"></script>   
+        <script src="./script/contacto.js"></script>
 
 </body>
 

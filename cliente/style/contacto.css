@@ -2,26 +2,27 @@
   margin: 0;
   padding: 0;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 
-body{
-  font-family: 'Raleway', sans-serif;  
+body {
+  font-family: 'Raleway', sans-serif;
 
 
 }
 
 body {
-  
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-    background-image: url('/cliente/img/pepeeee.webp'); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    font-family: 'Raleway', sans-serif;
+  background-image: url('/cliente/img/pepeeee.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Raleway', sans-serif;
 }
 
 
@@ -60,10 +61,12 @@ img {
   align-items: center;
   transform: translateY(0);
 }
-.seccion-1{
+
+.seccion-1 {
   display: flex;
   flex-direction: row;
 }
+
 .main-menu {
   list-style: none;
   display: flex;
@@ -122,17 +125,21 @@ img {
     height: 80px;
 
   }
-.gg{
-  height: 40px;
-}
-.main-nav{
-  background-color: #D7C8ED;
 
-}
-a{
-  color: #000000;
+  .gg {
+    height: 40px;
   }
-  a{
+
+  .main-nav {
+    background-color: #D7C8ED;
+
+  }
+
+  a {
+    color: #000000;
+  }
+
+  a {
     color: #dac9f3;
   }
 }
@@ -153,7 +160,7 @@ a{
 
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size:cover ;
+  background-size: cover;
   height: 60vh;
   display: flex;
   justify-content: center;
@@ -173,7 +180,7 @@ a{
   background-size: cover;
   background-position: center;
   height: 100vh;
- 
+
 }
 
 .Formulario {
@@ -187,16 +194,38 @@ a{
   align-self: center;
   margin-top: 25px;
   height: px;
-  
+
 }
 
 .campo {
   margin-bottom: 15px;
 }
 
+.campo-foto input[type="file"] {
+  display: none;
+
+}
+
+.campo-foto label {
+  background-color: #fdcedf;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.campo-foto label:hover {
+  background-color: #d7c8ed;
+}
+
 label {
   display: block;
- 
+
 }
 
 input[type="text"],
@@ -215,9 +244,10 @@ button[type="submit"] {
   border-radius: 4px;
   cursor: pointer;
   width: 400px;
- 
+
 }
-.campos{
+
+.campos {
 
   cursor: pointer;
   color: #FFFFFF;
@@ -228,21 +258,23 @@ button[type="submit"] {
   background: #fdcedf;
   transition: 0.1s;
 }
-.campos::after{
-content: '';
-width: 100%;
-height: 100%;
-filter: blur(15px);
-z-index: -1;
-position: absolute;
-left: 0;
-top:0 ;
-background-image: #fff;
-}
-.campos:hover{
-transform: scale(0.9) rotate(3deg);
 
-transition: 0.5s;
+.campos::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  filter: blur(15px);
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: #fff;
+}
+
+.campos:hover {
+  transform: scale(0.9) rotate(3deg);
+
+  transition: 0.5s;
 
 }
 
@@ -251,8 +283,14 @@ transition: 0.5s;
   display: inline-block;
   width: 45%;
   margin-right: 18px;
-  
+
 }
+
+input[type="file"] {
+  display: none;
+}
+
+
 
 
 
@@ -283,11 +321,9 @@ transition: 0.5s;
 }
 
 
-@media (min-width: 412px) and (min-height: 914px) {
- 
-}
+@media (min-width: 412px) and (min-height: 914px) {}
 
-footer{
+footer {
   width: 1000000000000000px;
   bottom: 0;
   left: 0;
@@ -297,20 +333,23 @@ footer{
   align-items: center;
   flex-direction: column;
   margin-top: -40;
-  
+
 }
-.loogo{
+
+.loogo {
   height: 80px;
 }
 
-.social-icons-container, .footer-menu-container{
+.social-icons-container,
+.footer-menu-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 1rem;
 }
-.social-icon{
+
+.social-icon {
   height: 50px;
   width: 50px;
   border-radius: 50px;
@@ -321,33 +360,38 @@ footer{
   background-repeat: no-repeat;
   margin: 1rem;
 }
-.social-icon:hover{
+
+.social-icon:hover {
   background-color: #fdcedf;
   filter: invert(1);
-}  
+}
 
-.social-icon:nth-of-type(2){
+.social-icon:nth-of-type(2) {
   background-image: url(/cliente/img/logotipo-de-instagram.png);
 }
-.social-icon:nth-of-type(3){
+
+.social-icon:nth-of-type(3) {
   background-image: url(/cliente/img/tiktok.png);
 }
 
-.footer-menu-container{
+.footer-menu-container {
   list-style-type: none;
   color: #000203;
   font-size: 18px;
   width: 100%;
 }
-.menu-item{
+
+.menu-item {
   margin: 1rem 1.5rem;
   cursor: pointer;
   opacity: 0.6;
 }
-.menu-item:hover{
+
+.menu-item:hover {
   opacity: 1;
 }
-.copyright{
+
+.copyright {
   color: #000000;
   opacity: 0.3;
 }
@@ -390,8 +434,8 @@ footer{
   background-color: #d7c8ed;
 }
 
-.footer{
-     
+.footer {
+
   width: 119%;
   height: 400px;
   background-color: white;
@@ -399,7 +443,7 @@ footer{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom:-80px ;
+  margin-bottom: -80px;
 }
 
 
@@ -407,7 +451,7 @@ label {
   display: flex;
   align-items: center;
   margin-right: 10px;
-  
+
 }
 
 input[type="checkbox"] {
@@ -417,14 +461,14 @@ input[type="checkbox"] {
 
 .let {
   font-size: 14px;
- 
+
 
 }
 
 
 @media (max-width: 768px) {
   .cuadro {
-    height: auto; 
+    height: auto;
   }
 
   nav {
@@ -433,7 +477,7 @@ input[type="checkbox"] {
   }
 
   nav a {
-    font-size: 14px; 
+    font-size: 14px;
     padding: 5px;
   }
 
